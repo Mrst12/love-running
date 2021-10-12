@@ -12,7 +12,6 @@ body {
     color: #3a3a3a;
 }
 
-/*headings and logo */
 
 h1,
 h2 {
@@ -28,7 +27,6 @@ h2 {
     margin-left: 30px;
 }
 
-/* navigation links */
 
 #menu {
     font-size: 110%;
@@ -60,7 +58,6 @@ h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero image */
 
 #hero-outer {
     height: 600px;
@@ -80,13 +77,13 @@ h2 {
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center;
 
-    /* animates zoom effect on loading page */
+
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
-/* creates the level of zoom for hero image */
+
 @keyframes hero-zoom {
     from {
         transform: scale(1);
@@ -117,7 +114,6 @@ h2 {
     position: absolute;
 }
 
-/* club ethos*/
 
 #club-ethos {
     height: 600px;
@@ -226,7 +222,7 @@ footer {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -244,7 +240,7 @@ footer {
     column-gap: 0;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
 }
 
@@ -260,7 +256,8 @@ footer {
         margin: 0;
     }
 
-    #left-about, #right-about {
+    #left-about,
+    #right-about {
         width: 100%;
         float: left;
         padding: 0;
@@ -273,7 +270,7 @@ footer {
         padding: 0;
     }
 
-    #times > div {
+    #times>div {
         width: 100%;
         clear: both;
         height: 150px;
@@ -296,7 +293,7 @@ footer {
     }
 
     #cover-text {
-        left:0;
+        left: 0;
     }
 
     #club-ethos {
@@ -305,16 +302,19 @@ footer {
         margin: 0 auto;
     }
 
-    .left-about-heading, .right-about-heading {
+    .left-about-heading,
+    .right-about-heading {
         width: inherit;
     }
 
-    .left-about-heading h2, .right-about-heading h2 {
+    .left-about-heading h2,
+    .right-about-heading h2 {
         width: 100%;
         text-align: center;
     }
 
-    .left-about-heading p, .right-about-heading p {
+    .left-about-heading p,
+    .right-about-heading p {
         text-align: center;
         padding: 0 20px;
     }
